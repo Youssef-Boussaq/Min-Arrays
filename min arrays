@@ -1,0 +1,9 @@
+t=[]
+for i in range(0,10):
+  a=int(input("write the nember int;   "))
+  t.append(a)
+min=t[0] 
+for i in range(0,10):
+ if min >t[i]:
+      min=t[i]
+print(min)
